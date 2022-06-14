@@ -1,10 +1,10 @@
 import random
 
 password = ''
-password_length = int(input('Enter length of the password: '))
+password_length = int(input('Enter password length: '))
 
 for i in range(password_length):
-    password = password + random.choice('QWERTYUIOPASDFGHJKLZXCVBNM1234567890qwertyuiopasdfghjklzxcvbnm')
+    password = password + random.choice('ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz')
 
 print(f'Your password is {password}')
 
